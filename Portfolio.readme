@@ -1,0 +1,24 @@
+<!-- Portfolio Website
+
+Submit Assignment
+Due Sunday by 11:59pm  Points 10  Submitting a website url
+Your first project is to build your personal portfolio website as a web developer. This will be an on going project throughout this course that you will continually add to as you learn advanced concepts and complete projects. Your portfolio website will be an extension of your resume so think about who will be viewing it (employers, recruiters, fellow developers, project managers, designers...etc). Begin with drawing a wireframe to define and organize your layout/concept. This will need to be submitted as part of the project. You will be building this with HTML and CSS, as you progress through the course you will be adding JavaScript and jQuery. No need to add Ruby or Rails because this will not be a database. Be sure to create a Git repository for this project and make several commits along the way. 
+
+ 
+
+It should have the following features:
+
+At least 3 separate pages. For example: Home, Contact, Projects
+Uses modern design principals
+Includes photographs. 
+Has links to projects/external websites that open in a new window. You will be adding projects you complete in this course, past projects, side projects and can always add future projects once completed.
+Incorporates a <ul> and <nav> powered navigation bar
+Make it look good and upload it to nycda.zone! If you're confused about how to achieve a certain effect, use a developer's best friend: Google + StackOverflow!
+
+Be proud of the work you do. Share your portfolio on social media and tag us on Twitter (Links to an external site.), Facebook (Links to an external site.), and LinkedIn (Links to an external site.)!
+
+ (Links to an external site.)Grading Criteria
+
+Meets the list of features mentioned, strictly
+
+Follows the coding conventions mentioned in the overall grading criteria/guidelines -->
