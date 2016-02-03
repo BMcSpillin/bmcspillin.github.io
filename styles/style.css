@@ -1,0 +1,56 @@
+.background-image {
+  overflow: hidden;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: auto;
+  opacity: 0.3;
+  z-index: -1;
+}
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 400;
+}
+
+header {
+  width: 100%;
+  color: maroon;
+  text-align: right;
+  border-bottom: 1px solid maroon;
+  float: left;
+}
+
+h1 {
+  margin: 0 15px 10px 0;
+}
+
+h2 {
+  margin: 0 15px 20px 0;
+}
+/*.headerBox {
+  width: 100%;
+  height: 200px;
+  color: black;
+  z-index: 1;
+}*/
+
+a {
+  text-decoration: none;
+  color: maroon;
+}
+
+nav a:hover {
+  font-weight: 700;
+}
+
+nav ul {
+  text-align: right;
+}
+
+nav li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 15px;
+}
