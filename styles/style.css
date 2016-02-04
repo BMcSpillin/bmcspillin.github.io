@@ -23,23 +23,20 @@ body {
 header {
   width: 100%;
   text-align: right;
+  background-color: rgba(255,255,255,0.3);
   border-bottom: 1px solid maroon;
   float: left;
 }
 
 h1 {
   margin: 0 15px 10px 0;
+  padding-top: 10px;
 }
 
 h2 {
   margin: 0 15px 20px 0;
+  padding-bottom: 10px;
 }
-
-/*.headerBox {
-  width: 100%;
-  height: 200px;
-  color: rgba(255,255,255,0.5);
-}*/
 
 a {
   text-decoration: none;
@@ -52,6 +49,7 @@ nav a:hover {
 
 nav ul {
   text-align: right;
+  background-color: rgba(255,255,255,0.5);
 }
 
 nav li {
@@ -62,15 +60,24 @@ nav li {
 
 .McMission {
   color: maroon;
-  width: 100%;
-  float: left;
+  width: 450px;
+  margin: 0 auto;
+  padding: 15px;
   text-align: center;
+  background-color: rgba(255,255,255,0.5);
+  clear: both;
 }
 
 .McMission p {
   width: 350px;
   margin: 0 auto 30px;
 }
+
+.recentProjects {
+  text-align: center;
+  margin-top: 75px;
+  background-color: rgba(255,255,255,0.5);
+  }
 
 .recentWork {
   width: 300px;
@@ -80,5 +87,20 @@ nav li {
 }
 
 .recentWork a:hover {
-  opacity: 0.7;
+  opacity: 0.6;
+}
+
+.tagline {
+  width: 100%;
+  text-align: center;
+  display: inline-block;
+  padding-top: 50px;
+  clear: left;
+}
+
+footer {
+  width: 100%;
+  height: 30px;
+  background-color: rgba(255,255,255,0.5);
+  text-align: left;
 }
