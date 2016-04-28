@@ -1,3 +1,7 @@
+/*////////////////////////////////////////
+                Universal
+////////////////////////////////////////*/
+
 .background-image {
   overflow: hidden;
   position: absolute;
@@ -12,6 +16,7 @@
 
 body {
   font-family: 'Quicksand', sans-serif;
+  position: relative;
   font-weight: 400;
   color: maroon;
   max-width: 900px;
@@ -58,6 +63,23 @@ nav li {
   margin: 0 15px;
 }
 
+footer {
+  width: 900px;
+  height: 30px;
+  background-color: rgba(255,255,255,0.5);
+  text-align: left;
+  position: fixed;
+  bottom: 0;
+}
+
+footer img {
+  margin: 3px;
+}
+
+/*////////////////////////////////////////
+                Homepage
+////////////////////////////////////////*/
+
 .McMission {
   color: maroon;
   width: 450px;
@@ -98,9 +120,44 @@ nav li {
   clear: left;
 }
 
-footer {
+/*////////////////////////////////////////
+              Professional
+////////////////////////////////////////*/
+
+.project {
+  margin: 4px 5px 0;
+  float: left;
+}
+
+.project img {
   width: 100%;
-  height: 30px;
+  position: relative;
+}
+
+h4 {
+  width: 100%;
+  text-align: center;
   background-color: rgba(255,255,255,0.5);
-  text-align: left;
+  margin: 0;
+}
+
+.lunchhunch {
+  width: 300px;
+}
+
+.platform {
+  width: 300px;
+}
+
+/*////////////////////////////////////////
+                Personal
+////////////////////////////////////////*/
+.left {
+  float: left;
+  margin: 0 5px 5px 0;
+}
+
+.right {
+  float: right;
+  margin: 5px 0 5px 5px;
 }
