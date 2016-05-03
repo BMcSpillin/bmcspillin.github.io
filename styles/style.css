@@ -15,7 +15,7 @@
 }
 
 body {
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Pompiere', sans-serif;
   position: relative;
   font-weight: 400;
   color: maroon;
@@ -46,6 +46,7 @@ h2 {
 a {
   text-decoration: none;
   color: maroon;
+  font-size: 1.5em;
 }
 
 nav a:hover {
@@ -74,6 +75,8 @@ footer {
 
 footer img {
   margin: 3px;
+  height: 24px;
+  width: 24px;
 }
 
 /*////////////////////////////////////////
@@ -93,6 +96,7 @@ footer img {
 .McMission p {
   width: 350px;
   margin: 0 auto 30px;
+  font-size: 1.2em;
 }
 
 .recentProjects {
