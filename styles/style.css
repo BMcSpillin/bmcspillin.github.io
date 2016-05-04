@@ -9,8 +9,11 @@
   top: 0;
   width: 100%;
   min-width: 400px;
+  max-width: 898px;
   height: auto;
   opacity: 0.3;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
   z-index: -1;
 }
 
@@ -22,7 +25,7 @@ body {
   max-width: 900px;
   min-width: 400px;
   margin: 0 auto;
-  background-color: rgba(255, 147, 77, 0.6)
+  background-color: rgb(60, 0, 0);
 }
 
 header {
@@ -38,12 +41,11 @@ h1 {
   padding-top: 10px;
 }
 
-h2 {
-  margin: 0 15px 20px 0;
-  padding-bottom: 10px;
+header h2 {
+  margin: 0 15px 15px 0;
 }
 
-a {
+nav a {
   text-decoration: none;
   color: maroon;
   font-size: 1.5em;
@@ -62,6 +64,7 @@ nav li {
   list-style: none;
   display: inline-block;
   margin: 0 15px;
+  padding: 3px 0;
 }
 
 footer {
@@ -99,11 +102,29 @@ footer img {
   font-size: 1.2em;
 }
 
+.McMission a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.McMission a:hover {
+  font-weight: bold;
+}
+
+.McMission:hover {
+  background-color: rgba(255,255,255,0.7);
+}
+
 .recentProjects {
+  width: 100%;
   text-align: center;
   margin-top: 75px;
   background-color: rgba(255,255,255,0.5);
   }
+
+h2 {
+  padding: 10px auto;  
+}
 
 .recentWork {
   width: 300px;
@@ -118,6 +139,7 @@ footer img {
 
 .tagline {
   width: 100%;
+  color: rgba(255,255,255,0.5);
   text-align: center;
   display: inline-block;
   padding-top: 50px;
@@ -138,11 +160,16 @@ footer img {
   position: relative;
 }
 
-h4 {
+.recentWork h3 {
   width: 100%;
   text-align: center;
-  background-color: rgba(255,255,255,0.5);
   margin: 0;
+  background-color: rgba(255,255,255,0.5);
+  color: maroon;
+}
+
+.recentWork a {
+  text-decoration: none;
 }
 
 .lunchhunch {
@@ -164,4 +191,9 @@ h4 {
 .right {
   float: right;
   margin: 5px 0 5px 5px;
+}
+
+article {
+  color: white;
+  font-size: 1.2em;
 }
